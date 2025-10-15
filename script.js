@@ -31,8 +31,8 @@ const generatedPasswordTwo = generateRandomPassword()
 
 // test button click
 passwordButton.addEventListener("click", function() {
-    passwordBox1.textContent = generatedPasswordOne
-    passwordBox2.textContent = generatedPasswordTwo
+    passwordBox1.textContent = generateRandomPassword()
+    passwordBox2.textContent = generateRandomPassword()
 })
 
 
