@@ -43,13 +43,18 @@ hr {
     margin: 20px 0;
 }
 
-.rectangle {
+.password-box-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.password-box {
     width: 211px;
     min-height: 39px;
     background-color: #2F3E53;
-    display: inline-block;
     border-radius: 6px;
-    margin: 4px 8px;
     color: #10B981;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
